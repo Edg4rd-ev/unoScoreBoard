@@ -1,0 +1,82 @@
+.card {
+  width: 17rem;
+  height: 25rem;
+  border-radius: 0.3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-inline: 1rem;
+
+  font-size: 2rem;
+  color: white;
+
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+.number {
+  margin: 0;
+}
+.count1 {
+  flex: 1;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+.count2 {
+  flex: 1;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  rotate: 180deg;
+}
+.countMain {
+  flex: 1;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 6rem;
+}
+.commands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+
+  margin-top: 1rem;
+}
+.name {
+  margin: 0;
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 0.3rem;
+  padding-top: 0.5rem;
+
+  font-size: 2rem;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+.btn:hover {
+  padding-inline: 1rem;
+}
+.btn:active {
+  border: 1px solid black;
+}
